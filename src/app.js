@@ -37,7 +37,7 @@ app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help",
     name: "Himanshu",
-    message: "I'm using hbs instead of html. May god help me!!",
+    message: "This is just a help page. Ahoy!!",
   });
 });
 
