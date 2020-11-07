@@ -1,6 +1,7 @@
 const weatherForm = document.querySelector("form");
 const message1 = document.getElementById("message-1");
 const message2 = document.getElementById("message-2");
+
 weatherForm.addEventListener("submit", (e) => {
   e.preventDefault();
   message1.innerText = "loading...";
