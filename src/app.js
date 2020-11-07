@@ -16,7 +16,7 @@ app.set("view engine", "hbs");
 app.set("views", viewPath);
 hbs.registerPartials(partialsPath);
 
-//Setup static sirectory to serve
+//Setup static directory to serve
 app.use(express.static(publicDirPath));
 
 app.get("", (req, res) => {
